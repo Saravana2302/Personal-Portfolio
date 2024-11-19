@@ -1,0 +1,93 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    background-color:rgba(7, 37, 67, 1);
+    color: #333;
+}
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 10px;
+    color: whitesmoke;
+}
+
+nav a{
+    text-decoration: none;
+    padding: 10px;
+    color: whitesmoke;
+    
+}
+
+.logo{
+    font-weight: bold;
+}
+
+nav a:hover{
+    background: conic-gradient(whitesmoke,rgb(2, 2, 60));
+    border-radius: 2px;
+}
+.contact-header {
+    background-color: #3498db;
+    color: white;
+    text-align: center;
+    padding: 4rem 2rem;
+}
+
+.contact-header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.contact-container {
+    max-width: 1200px;
+    margin: 3rem auto;
+    padding: 0 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+}
+
+.contact-info {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.info-item {
+    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.info-item i {
+    font-size: 1.5rem;
+    color: #3498db;
+}
+
+@media (max-width: 768px) {
+    .contact-container {
+        grid-template-columns: 1fr;
+    }
+
+    .navbar ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .contact-header h1 {
+        font-size: 2rem;
+    }
+}

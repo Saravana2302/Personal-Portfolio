@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(https://tse3.mm.bing.net/th?id=OIP.RE42xWqz4sgCoQGQ3GNzHQHaFh&pid=Api&P=0&h=180) no-repeat;
+    background-size: cover;
+}   
+
+div .logo{
+    text-decoration: none;
+    padding: 1em;
+    color: aliceblue;
+}
+
+div .navbar{
+    text-align: right;
+    position: absolute;
+    top: 1em;
+    right: 1em;
+
+}
+
+.navbar a{
+    text-decoration: none;
+    padding: 1em;
+    color: aliceblue;
+}
+
+.Container{
+    padding: 10em 5em;
+}
+
+#sl{
+    background-color: red;
+    width: 5em;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+
+}
+
+p{
+    margin-top: 20px;
+
+}
+
+#start{
+    margin-top: 20px;
+    background-color: red;
+    width: 9em;
+    text-align: center;
+    color: white;
+    padding: 0.5em;
+}
+
+.four{
+    position: absolute;
+    background-color: rgb(247, 243, 243);
+    width: 100px;
+    font-size: 2em;
+    transform: rotate(50deg);
+    border-radius: 15px;
+    left: 40%;
+    height: 100px;
+    
+}
+
+pre{
+    margin-top: 1.5em;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.four h1{
+    position: relative;
+    transform: rotate(-50deg);
+    left: 10px;
+}

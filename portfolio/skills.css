@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: whitesmoke;
+    background-color: rgba(7, 37, 67, 1);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    /* background-image: linear-gradient(to right, rgba(7, 37, 67, 1),rgba(200,344,342,0.5)); */
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 10px;
+}
+
+nav a{
+    text-decoration: none;
+    padding: 10px;
+    color: whitesmoke;
+    
+}
+
+.logo{
+    font-weight: bold;
+}
+
+nav a:hover{
+    background: conic-gradient(whitesmoke,rgb(2, 2, 60));
+    border-radius: 2px;
+}
+
+div{
+    animation: myAnim 2s ease 0s 1 normal forwards;
+}
+
+@keyframes myAnim {
+	0% {
+		animation-timing-function: ease-in;
+		opacity: 0;
+		transform: translateY(-250px);
+	}
+
+	38% {
+		animation-timing-function: ease-out;
+		opacity: 1;
+		transform: translateY(0);
+	}
+
+	55% {
+		animation-timing-function: ease-in;
+		transform: translateY(-65px);
+	}
+
+	72% {
+		animation-timing-function: ease-out;
+		transform: translateY(0);
+	}
+
+	81% {
+		animation-timing-function: ease-in;
+		transform: translateY(-28px);
+	}
+
+	90% {
+		animation-timing-function: ease-out;
+		transform: translateY(0);
+	}
+
+	95% {
+		animation-timing-function: ease-in;
+		transform: translateY(-8px);
+	}
+
+	100% {
+		animation-timing-function: ease-out;
+		transform: translateY(0);
+	}
+}
+
